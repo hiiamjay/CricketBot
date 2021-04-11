@@ -17,8 +17,6 @@ datasets_path = Path.joinpath(Path.cwd(),'dataset')
 
 #load images 
 center = Image.open(Path.joinpath(img_path,'center.jpg'))
-federer_image = Image.open(Path.joinpath(img_path,'federer.jpg'))
-nadal =Image.open(Path.joinpath(img_path,'Nadal.jpg'))
 
 #load artifacts 
 model = load_model(Path.joinpath(artifacts_path,'model-v1.h5'))
