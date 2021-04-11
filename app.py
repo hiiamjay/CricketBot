@@ -85,8 +85,8 @@ CricBot is a NLP bot trainned basic cricket corpus using  CNN achitecture
 
 st.image(center,width=700)
 st.sidebar.subheader("About Us")
-st.sidebar.write("We are Data science students from NMIMS, Mumbai. We work on Sports Analytics, Majorly on Cricket.")
-st.sidebar.write("To explore our projects on IPL Click Here")
+st.sidebar.text("We are Data science students from NMIMS, Mumbai. We work on Sports Analytics, Majorly on Cricket.")
+st.sidebar.text("To explore our projects on IPL Click Here")
 
 user_input = get_text()
 response = botResponse(user_input)
