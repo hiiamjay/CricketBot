@@ -37,7 +37,7 @@
         },
         {"tag": "top_players",
          "patterns": ["Who are the top players in tennis?", "List the top tennis players", "Top players?", "Who are the best players in tennis", "The best players are?", "Do you know the top players in tennis?"],
-         "responses": ["As of April 2020, \nMen: Novak Djokovic, Rafael Nadal, Dominic Thiem, Roger Federer and Daniil Medvedev.  \nFemales: Asheleigh Barty, Simona Halep, Karolina Pliskova, Sofia Ofia Kenin and Elina Svitolina"],
+         "responses": ["As of April 2021, \nMen: Novak Djokovic, Rafael Nadal, Dominic Thiem, Roger Federer and Daniil Medvedev.  \nFemales: Asheleigh Barty, Simona Halep, Karolina Pliskova, Sofia Ofia Kenin and Elina Svitolina"],
          "context": [""]
         },
         {"tag": "general_rules",
