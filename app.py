@@ -77,10 +77,10 @@ def get_text():
 
 
 
-st.sidebar.title("CricBot")
+st.sidebar.title("Tennis Bot")
 st.title("""
-CricBot  
-CricBot is a NLP bot trainned basic cricket corpus using  CNN achitecture
+Tennis Bot  
+Answers to all your Tennis Questions
 """)
 
 st.image(center,width=700)
@@ -89,7 +89,7 @@ st.sidebar.subheader("About Us")
 st.sidebar.text(" ")
 st.sidebar.text("We are Data science students from")
 st.sidebar.text("NMIMS, Mumbai. We work  on ")
-st.sidebar.text("Sports Analytics, Majorly on Cricket.")
+st.sidebar.text("Sports Analytics.")
 st.sidebar.text("To explore our projects on IPL")
 st.sidebar.markdown('[The IPL Project](https://share.streamlit.io/hiiamjay/ipl/main/app.py)')
 
