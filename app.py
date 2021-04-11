@@ -77,14 +77,14 @@ def get_text():
 
 
 
-st.sidebar.title("BoTennis")
+st.sidebar.title("CricBot")
 st.title("""
-BoTennis  
-BoTennis is a NLP bot trainned basic tennis corpus using  CNN achitecture
+CricBot  
+CricBot is a NLP bot trainned basic cricket corpus using  CNN achitecture
 """)
 
 st.image(center,width=700)
-st.sidebar.image(federer_image)
+st.sidebar.subheader("About Us:)
 st.sidebar.image(nadal,width=350)
 
 user_input = get_text()
