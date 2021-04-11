@@ -6,7 +6,7 @@ import joblib
 from pathlib import Path 
 from PIL import Image
 import streamlit as st
-import SessionState
+#import SessionState
 
 #paths
 img_path = Path.joinpath(Path.cwd(),'images')
