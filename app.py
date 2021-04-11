@@ -91,7 +91,7 @@ st.sidebar.text("We are Data science students from")
 st.sidebar.text("NMIMS, Mumbai. We work  on ")
 st.sidebar.text("Sports Analytics, Majorly on Cricket.")
 st.sidebar.text("To explore our projects on IPL")
-st.sidebar.markdown([IPL Data Extractor](https://share.streamlit.io/hiiamjay/ipl/main/app.py))
+st.sidebar.markdown('[IPL Data Extractor](https://share.streamlit.io/hiiamjay/ipl/main/app.py)')
 
 user_input = get_text()
 response = botResponse(user_input)
