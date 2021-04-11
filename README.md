@@ -1,3 +1,3 @@
 # Tennis Bot
 
-Answer to all you Tennis Questions
+Answers to all you Tennis Questions
