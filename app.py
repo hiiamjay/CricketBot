@@ -6,10 +6,7 @@ import joblib
 from pathlib import Path 
 from PIL import Image
 import streamlit as st
-import nltk
-#import SessionState
-
-nltk.download('wordnet')
+import SessionState
 
 #paths
 img_path = Path.joinpath(Path.cwd(),'images')
@@ -77,21 +74,15 @@ def get_text():
 
 
 
-st.sidebar.title("CricBot")
+st.sidebar.title("BoTennis")
 st.title("""
-CricBot  
-CricBot is a NLP bot trainned basic cricket corpus using  CNN achitecture
+BoTennis  
+BoTennis is a NLP bot trainned basic tennis corpus using  CNN achitecture
 """)
 
 st.image(center,width=700)
-st.sidebar.subheader("About Us")
-
-st.sidebar.text(" ")
-st.sidebar.text("We are Data science students from")
-st.sidebar.text("NMIMS, Mumbai. We work  on ")
-st.sidebar.text("Sports Analytics, Majorly on Cricket.")
-st.sidebar.text("To explore our projects on IPL")
-st.sidebar.markdown('[The IPL Project](https://share.streamlit.io/hiiamjay/ipl/main/app.py)')
+st.sidebar.image(federer_image)
+st.sidebar.image(nadal,width=350)
 
 user_input = get_text()
 response = botResponse(user_input)
