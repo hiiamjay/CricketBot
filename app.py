@@ -7,7 +7,6 @@ from pathlib import Path
 from PIL import Image
 import streamlit as st
 import nltk
-#import SessionState
 
 nltk.download('wordnet')
 
@@ -26,9 +25,7 @@ model = load_model(Path.joinpath(artifacts_path,'model-v1.h5'))
 tokenizer_t = joblib.load(Path.joinpath(artifacts_path,'tokenizer_t.pkl'))
 vocab = joblib.load(Path.joinpath(artifacts_path,'vocab.pkl'))
 
-df2 = pd.read_csv(Path.joinpath(datasets_path,'response.csv'))
-
-#ss = SessionState.get(is_startup=True) 
+df2 = pd.read_csv(Path.joinpath(datasets_path,'response.csv')) 
 
 def get_pred(model,encoded_input):
     pred = np.argmax(model.predict(encoded_input))
@@ -62,12 +59,6 @@ def botResponse(user_input):
     response = get_response(df2,pred)
     response = bot_response(response)
     
-    #if ss.is_startup:
-        #response = "Hi, I'm happy to have you here \nI have a lot to discuss about tennis"
-        #ss.is_startup = False
-        #return response
-
-    #else:
     return  response
 
 def get_text():
