@@ -6,6 +6,7 @@ import joblib
 from pathlib import Path 
 from PIL import Image
 import streamlit as st
+import nltk
 #import SessionState
 
 nltk.download('wordnet')
