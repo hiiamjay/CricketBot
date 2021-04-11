@@ -1,0 +1,79 @@
+{"intents": [
+        {"tag": "start_conversation",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi"],
+         "responses": ["Hello, I'm sure you love Cricket", "Happy to have you here", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+
+	{"tag": "what_are_you",
+         "patterns": ["What is your name?", "what are you?", "who are you?","your name pls?"],
+         "responses": ["Hi, I'm  CricBot", "I'm CricBot ", "Call me CricBot"],
+         "context": [""]
+        },
+        {"tag": "end_conversation",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Have a lovely match!", "Have a nice playing time", "Enjoy the game!","Have fun with the balls"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Do enjoy the game","Have fun on cricket ground"],
+         "context": [""]
+        },
+        {"tag": "confused",
+         "patterns": [],
+         "responses": ["Sorry, kindly rephrase the question","Sorry, can't understand you", "Please give me more information", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What can you do?", "What help you provide?", "How can you be helpful?", "What support do you offered","What do you know?","what help?","What are you about?"],
+         "responses": ["I can guide you through how to get started with cricket"],
+         "context": [""]
+        },
+  	{"tag": "bot_scope",
+         "patterns": ["What do you know about cricket?", "tell me about cricket?", "Do you really know lots about cricket?", "what exactly do you know about cricket","what do you mean by guides through cricket?"],
+         "responses": ["I know quiet some rules in cricket, game types, top players and many more","I know some key words like boundary, out, lbw, wide, no ball to mention a few","Ask me a question about cricket and I will answer to the best of my knowledge"],
+         "context": [""]
+        },
+        {"tag": "top_players",
+         "patterns": ["Who are the top players in cricket?", "List the top cricket players", "Top players?", "Who are the best players in cricket", "The best players are?", "Do you know the top players in cricket?"],
+         "responses": ["As at April 2021, \nMen: Rohit Sharma, Virat Kohli, KritiGay, Steve Smith and ABD.  \nWomen: Smriti Mandhana, Harmanpreet Kaur and Elysse Perry"],
+         "context": [""]
+        },
+        {"tag": "general_rules",
+         "patterns": ["What are the general rules of cricket?", "List the rules in cricket?", "Do you know general cricket rules?", "What are the general playing rules in cricket?", "cricket rules ?" ],
+         "responses": ["A ball must land within the boundary for play to continue; if a player hits the ball outside of the boundary, it results in a 4 or a 6.\nFielders cannot carry the ball or catch it outside the boundary line.\nBatsman cannot hit the ball twice.\nPlayers must wait until the umpire signals for a break in play.\nA bowlers delivery foot must remain inside the popping crease at the point of releasing the ball.\nIf the ball hits or touches the batsman's pad before hitting the bat it can be LBW out.\nAny ball that bounces on the boundary line is considered a six.\nA ball must be bowled within the wide line to be considered a legal delivery."],
+         "context": [""]
+        },
+        {"tag": "kits",
+         "patterns": ["What are the cricket kits I need to get started?","What are the cricket wears I need to get started?", "list cricket kits for beginner", "list cricket wears for beginner", "list the full cricket kits","list the full cricket wears", "cricket kits?","cricket wears?","cricket kits will be?","cricket wears will be?"],
+         "responses": ["cricket shoes, cricket clothes, cricket Ball, cricket Bat, cricket headgear, Water bottles, Towels, Sun cream, Sunglasses, Wrist bands and Kit bag"],
+         "context": [""]
+        },
+        {"tag": "ground_lines",
+         "patterns": ["Each lines on the cricket ground means whats?", "Why are there so many lines on the cricket ground?", "where is the base line on the cricket ground, What do the cricket ground lines mean?"],
+         "responses": ["Boundary Line - The Boundary line is the line which determines the end of field of play and also helps in determining if the runs scored are four or six.\nPopping Crease - The white line ahead of the stumps, within which the bowler has to remain at the point of delivery.\nPitch - The middle strip where the actual play happenes, it has a length of 22 yards.\n30 Yards Circle - The area which covers 30 yards within which the players have to stand during powerplay.\nWide Line - The line which determines if a ball is wide or not."],
+         "context": [""]
+        },
+        {"tag": "first_server",
+         "patterns": ["Who bats first?", "How do you decide who bats or fields first?", "Can anybody bat first?","Can anybody bat?" , "Can anybody field first?","Can anybody field?" ],
+         "responses": ["A flip of the coin is known as the toss, determines which team bats or fields. If called correctly, the team that did so chooses who bats or fields first."],
+         "context": [""]
+        },
+        {"tag": "cricket_games",
+         "patterns": ["Do you know cricket game formats?", "what are the different formats of games in cricket", "what are the games formats in cricket?", "Explain cricket game types" ],
+         "responses": ["T20: A format of the game where both teams get 20 overs to play each innings.\n ODI: One Day Internationals, a format where each team gets 50 Overs to play each innings and has to be completed inside one day.\n Test Match: A format which goes on for 5 days and both teams get two innings each."],
+         "context": [""]
+        },
+	{"tag": "tie_break",
+         "patterns": ["what will happen if a game ends in same score","what is tie-break","How does tie-break works","How do you decide the winner when scores are the same?","tell me about tie break"],
+         "responses": ["If both teams are level on scores in a T20 or ODI a super over is contested to get the winner."],
+         "context": [""]
+        },
+        {"tag": "scoring",
+         "patterns": ["How is extras counted?","what are the extras rules","How is cricket extras counted?","Explain extras board","How do you count cricket extras?"],
+         "responses": ["Runs - Smallest unit of measurement. Runs increment from 0-5./nByes -A batsman runs of a misfielding from the keeper./nLeg Byes - Runs that are scored after the ball hits the batsmans pad./nNo Balls - If a bowler oversteps the popping crease bowls a waist high full toss its a no ball./nPenalties - Runs deducted from the bowling team for any break in rules."],
+         "context": [""]
+        }
+   ]
+}
