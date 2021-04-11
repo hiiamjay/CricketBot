@@ -8,6 +8,8 @@ from PIL import Image
 import streamlit as st
 #import SessionState
 
+nltk.download('wordnet')
+
 #paths
 img_path = Path.joinpath(Path.cwd(),'images')
 artifacts_path = Path.joinpath(Path.cwd(),'model_artifacts')
