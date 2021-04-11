@@ -1,0 +1,56 @@
+response,labels
+"Hello, I'm sure you love cricket",11
+Happy to have you here,11
+Good to see you again,11
+"Hi there, how can I help?",11
+"Hi, I'm  CricBot",16
+I'm CricBot ,16
+Call me CricBot,16
+Have a lovely match!,3
+Have a nice playing time,3
+Enjoy the game!,3
+Have fun with the balls,3
+Happy to help!,13
+Any time!,13
+My pleasure,13
+Do enjoy the game,13
+Have fun on cricket ground,13
+"Sorry, kindly rephrase the question",1
+"Sorry, can't understand you",1
+Please give me more information,1
+Not sure I understand,1
+I can guide you through how to get started with cricket,8
+"I know quiet some rules in cricket, game types, top players and many more",0
+"I know some key words like boundary, out, lbw, wide, no ball",0
+Ask me a question about cricket and I will answer to the best of my knowledge,0
+"As at April 2021, 
+Men: Rohit Sharma, Virat Kohli, KritiGay, Steve Smith and ABD.  
+Women: Smriti Mandhana, Harmanpreet Kaur and Elysse Perry",15
+"A ball must land within the boundary for play to continue; if a player hits the ball outside of the boundary, it results in a 4 or a 6. 
+Fielders cannot carry the ball or catch it outside the boundary line.
+Batsman cannot hit the ball twice.
+Players must wait until the umpire signals for a break in play.
+A bowlers delivery foot must remain inside the popping crease at the point of releasing the ball.
+If the ball hits or touches the batsmans pad before hitting the bat it can be LBW out.
+Any ball that bounces on the boundary line is considered a six.
+A ball must be bowled within the wide line to be considered a legal delivery.",5
+"cricket shoes, cricket clothes, cricket Ball, cricket helmet, Water bottles, Towels, Sun cream, Sunglasses, Kit bag and Bat",6
+"Boundary Line - The Boundary line is the line which determines the end of field of play and also helps in determining if the runs scored are four or six.
+Popping Crease - The white line ahead of the stumps, within which the bowler has to remain at the point of delivery.
+Pitch - The middle strip where the actual play happenes, it has a length of 22 yards.
+30 Yards Circle - The area which covers 30 yards within which the players have to stand during powerplay.
+Wide Line - The line which determines if a ball is wide or not.",2
+"A flip of the coin is known as the toss, determines which team bats or fields. If called correctly, the team that did so chooses who bats or fields first.",4
+"Bat First - The team that bats first has to set a target for the opposition team.
+Power Play: A period in the Limited Overs game where there are field restrictions for the fielding team.
+T20: A format of the game where both teams get 20 overs to play each innings.
+ODI: One Day Internationals, a format where each team gets 50 Overs to play each innings and has to be completed inside one day.
+Test Match: A format which goes on for 5 days and both teams get two innings each.",10
+"A cricket game is a contest between two sides where there can be three outcomes in a test match, Win, Lose, Draw and Tie. In a ODI and T20 there can be a Win or Lose.",12
+If both teams are level on scores in a T20 or ODI a super over is contested to get the winner.,14
+"Runs - Smallest unit of measurement. Runs increment from 0-5.
+Byes -A batsman runs of a misfielding from the keeper.
+Leg Byes - Runs that are scored after the ball hits the batsmans pad.
+No Balls - If a bowler oversteps the popping crease bowls a waist high full toss its a no ball.
+Penalties - Runs deducted from the bowling team for any break in rules.",9
+"IPL, Big Bash, Pakistan Super League are some of the big cricket leagues.",7
